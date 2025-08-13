@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kanji Drill N5</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Kanji Drill N5</h1>
+    <div class="controls">
+      <label>Mode
+        <select id="modeSelect" aria-label="Mode">
+          <option value="mixed">Mixed</option>
+          <option value="reading">Reading</option>
+          <option value="meaning">Meaning</option>
+        </select>
+      </label>
+      <label>Content
+        <select id="contentSelect" aria-label="Content">
+          <option value="both">Kanji + Words</option>
+          <option value="kanji">Kanji only</option>
+          <option value="word">Words only</option>
+        </select>
+      </label>
+      <button id="shuffleBtn" type="button" title="Shuffle the order">Shuffle</button>
+      <button id="resetStatsBtn" type="button" title="Reset stats">Reset</button>
+      <label class="file-label" title="Load custom JSON dataset">
+        <input id="fileInput" type="file" accept="application/json" />
+        Load JSON
+      </label>
+    </div>
+  </header>
+
+  <main class="drill">
+    <div class="card" role="group" aria-label="Drill card">
+      <div id="prompt" class="prompt" aria-live="polite">—</div>
+      <div id="subPrompt" class="sub-prompt"></div>
+      <form id="answerForm" autocomplete="off">
+        <input id="answerInput" type="text" inputmode="search" placeholder="Type reading in kana/romaji or meaning..." aria-label="Your answer" />
+        <button id="checkBtn" type="submit">Check</button>
+        <button id="revealBtn" type="button">Reveal</button>
+        <button id="nextBtn" type="button">Next</button>
+      </form>
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+      <div id="correctAnswers" class="correct-answers" hidden></div>
+    </div>
+  </main>
+
+  <footer class="stats" aria-label="Statistics">
+    <div>Correct: <span id="correctCount">0</span>/<span id="totalCount">0</span> (<span id="accuracy">0</span>%)</div>
+    <div>Streak: <span id="streak">0</span></div>
+  </footer>
+
+  <script src="./script.js" type="module"></script>
+</body>
+</html>

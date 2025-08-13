@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "source": "JLPT N5 common kanji and words (public facts). No textbook content reproduced.
+"
+  },
+  "cards": [
+    {"id":"kanji-一","type":"kanji","prompt":"一","onyomiKana":["イチ","イツ"],"kunyomiKana":["ひと","ひとつ"],"meanings":["one"],"level":"N5"},
+    {"id":"kanji-二","type":"kanji","prompt":"二","onyomiKana":["ニ"],"kunyomiKana":["ふた","ふたつ"],"meanings":["two"],"level":"N5"},
+    {"id":"kanji-三","type":"kanji","prompt":"三","onyomiKana":["サン"],"kunyomiKana":["み","みっつ","みつ"],"meanings":["three"],"level":"N5"},
+    {"id":"kanji-四","type":"kanji","prompt":"四","onyomiKana":["シ"],"kunyomiKana":["よ","よっつ","よん","よつ"],"meanings":["four"],"level":"N5"},
+    {"id":"kanji-五","type":"kanji","prompt":"五","onyomiKana":["ゴ"],"kunyomiKana":["いつ","いつつ"],"meanings":["five"],"level":"N5"},
+    {"id":"kanji-六","type":"kanji","prompt":"六","onyomiKana":["ロク"],"kunyomiKana":["む","むっつ","むつ"],"meanings":["six"],"level":"N5"},
+    {"id":"kanji-七","type":"kanji","prompt":"七","onyomiKana":["シチ"],"kunyomiKana":["なな","ななつ"],"meanings":["seven"],"level":"N5"},
+    {"id":"kanji-八","type":"kanji","prompt":"八","onyomiKana":["ハチ"],"kunyomiKana":["や","やっつ","やつ"],"meanings":["eight"],"level":"N5"},
+    {"id":"kanji-九","type":"kanji","prompt":"九","onyomiKana":["キュウ","ク"],"kunyomiKana":["ここの","ここのつ"],"meanings":["nine"],"level":"N5"},
+    {"id":"kanji-十","type":"kanji","prompt":"十","onyomiKana":["ジュウ"],"kunyomiKana":["とお"],"meanings":["ten"],"level":"N5"},
+
+    {"id":"kanji-人","type":"kanji","prompt":"人","onyomiKana":["ジン","ニン"],"kunyomiKana":["ひと"],"meanings":["person","human"],"level":"N5"},
+    {"id":"kanji-日","type":"kanji","prompt":"日","onyomiKana":["ニチ","ジツ"],"kunyomiKana":["ひ","び","か"],"meanings":["day","sun"],"level":"N5"},
+    {"id":"kanji-月","type":"kanji","prompt":"月","onyomiKana":["ゲツ","ガツ"],"kunyomiKana":["つき"],"meanings":["moon","month"],"level":"N5"},
+    {"id":"kanji-年","type":"kanji","prompt":"年","onyomiKana":["ネン"],"kunyomiKana":["とし"],"meanings":["year"],"level":"N5"},
+    {"id":"kanji-時","type":"kanji","prompt":"時","onyomiKana":["ジ"],"kunyomiKana":["とき"],"meanings":["time","o'clock"],"level":"N5"},
+
+    {"id":"kanji-上","type":"kanji","prompt":"上","onyomiKana":["ジョウ"],"kunyomiKana":["うえ","あがる","あげる","のぼる"],"meanings":["up","above","over"],"level":"N5"},
+    {"id":"kanji-下","type":"kanji","prompt":"下","onyomiKana":["カ","ゲ"],"kunyomiKana":["した","さげる","さがる","くだる"],"meanings":["down","below","under"],"level":"N5"},
+    {"id":"kanji-中","type":"kanji","prompt":"中","onyomiKana":["チュウ","ジュウ"],"kunyomiKana":["なか","うち"],"meanings":["middle","inside","during"],"level":"N5"},
+    {"id":"kanji-大","type":"kanji","prompt":"大","onyomiKana":["ダイ","タイ"],"kunyomiKana":["おお","おおきい"],"meanings":["big","large"],"level":"N5"},
+    {"id":"kanji-小","type":"kanji","prompt":"小","onyomiKana":["ショウ"],"kunyomiKana":["ちいさい","こ","お"],"meanings":["small","little"],"level":"N5"},
+
+    {"id":"kanji-山","type":"kanji","prompt":"山","onyomiKana":["サン"],"kunyomiKana":["やま"],"meanings":["mountain"],"level":"N5"},
+    {"id":"kanji-川","type":"kanji","prompt":"川","onyomiKana":["セン"],"kunyomiKana":["かわ"],"meanings":["river"],"level":"N5"},
+    {"id":"kanji-田","type":"kanji","prompt":"田","onyomiKana":["デン"],"kunyomiKana":["た"],"meanings":["rice field","field"],"level":"N5"},
+    {"id":"kanji-口","type":"kanji","prompt":"口","onyomiKana":["コウ","ク"],"kunyomiKana":["くち"],"meanings":["mouth"],"level":"N5"},
+    {"id":"kanji-本","type":"kanji","prompt":"本","onyomiKana":["ホン"],"kunyomiKana":["もと"],"meanings":["book","origin"],"level":"N5"},
+
+    {"id":"kanji-学","type":"kanji","prompt":"学","onyomiKana":["ガク"],"kunyomiKana":["まなぶ"],"meanings":["study","learning"],"level":"N5"},
+    {"id":"kanji-生","type":"kanji","prompt":"生","onyomiKana":["セイ","ショウ"],"kunyomiKana":["いきる","うまれる","なま"],"meanings":["life","birth","raw","student"],"level":"N5"},
+    {"id":"kanji-先","type":"kanji","prompt":"先","onyomiKana":["セン"],"kunyomiKana":["さき"],"meanings":["ahead","previous","tip"],"level":"N5"},
+    {"id":"kanji-入","type":"kanji","prompt":"入","onyomiKana":["ニュウ"],"kunyomiKana":["はいる","いれる"],"meanings":["enter","insert"],"level":"N5"},
+    {"id":"kanji-出","type":"kanji","prompt":"出","onyomiKana":["シュツ"],"kunyomiKana":["でる","だす"],"meanings":["exit","leave","take out"],"level":"N5"},
+
+    {"id":"word-日本","type":"word","prompt":"日本","reading":["にほん","にっぽん"],"meanings":["japan"],"level":"N5"},
+    {"id":"word-日本人","type":"word","prompt":"日本人","reading":["にほんじん"],"meanings":["japanese person"],"level":"N5"},
+    {"id":"word-学生","type":"word","prompt":"学生","reading":["がくせい"],"meanings":["student"],"level":"N5"},
+    {"id":"word-先生","type":"word","prompt":"先生","reading":["せんせい"],"meanings":["teacher"],"level":"N5"},
+    {"id":"word-大学","type":"word","prompt":"大学","reading":["だいがく"],"meanings":["university","college"],"level":"N5"},
+    {"id":"word-大人","type":"word","prompt":"大人","reading":["おとな"],"meanings":["adult"],"level":"N5"},
+    {"id":"word-出口","type":"word","prompt":"出口","reading":["でぐち"],"meanings":["exit","way out"],"level":"N5"},
+    {"id":"word-入口","type":"word","prompt":"入口","reading":["いりぐち"],"meanings":["entrance"],"level":"N5"},
+    {"id":"word-火山","type":"word","prompt":"火山","reading":["かざん"],"meanings":["volcano"],"level":"N5"},
+    {"id":"word-山川","type":"word","prompt":"山川","reading":["やまかわ"],"meanings":["mountain and river"],"level":"N5"},
+    {"id":"word-水田","type":"word","prompt":"水田","reading":["すいでん"],"meanings":["rice paddy"],"level":"N5"},
+    {"id":"word-上手","type":"word","prompt":"上手","reading":["じょうず"],"meanings":["skillful","good at"],"level":"N5"},
+    {"id":"word-下手","type":"word","prompt":"下手","reading":["へた"],"meanings":["unskillful","poor at","bad at"],"level":"N5"},
+    {"id":"word-人口","type":"word","prompt":"人口","reading":["じんこう"],"meanings":["population"],"level":"N5"}
+  ]
+}
