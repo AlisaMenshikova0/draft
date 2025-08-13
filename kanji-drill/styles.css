@@ -1,0 +1,110 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #1f2937;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+.app-header h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+.controls { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+.controls select, .controls button, .controls input[type="file"] + span, .controls .file-label {
+  font-size: 0.95rem;
+}
+.controls select, .controls button {
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0b1220;
+  color: #e2e8f0;
+}
+.controls button { cursor: pointer; }
+.controls .file-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #0b1220;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+}
+.controls .file-label input { display: none; }
+
+.drill {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+.card {
+  width: min(900px, 92vw);
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 24px rgba(2,6,23,0.06);
+}
+.prompt {
+  text-align: center;
+  font-size: clamp(54px, 10vw, 120px);
+  line-height: 1.1;
+  margin: 0.25rem 0 0.5rem;
+}
+.sub-prompt {
+  text-align: center;
+  color: #6b7280;
+  min-height: 1.5em;
+  margin-bottom: 0.6rem;
+}
+#answerForm { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; }
+#answerInput {
+  flex: 1 1 380px;
+  padding: 0.65rem 0.8rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+#answerForm button {
+  padding: 0.65rem 0.9rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #f1f5f9;
+  cursor: pointer;
+}
+#answerForm button:active { transform: translateY(1px); }
+
+.feedback { text-align: center; font-weight: 600; margin-top: 0.5rem; min-height: 1.5em; }
+.feedback.ok { color: #16a34a; }
+.feedback.no { color: #dc2626; }
+.correct-answers { text-align: center; color: #334155; margin-top: 0.25rem; font-size: 0.95rem; }
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  border-top: 1px solid #e5e7eb;
+  background: #f1f5f9;
+  color: #111827;
+}
+
+@media (max-width: 480px) {
+  .controls { gap: 0.5rem; }
+  .app-header h1 { font-size: 1rem; }
+}
